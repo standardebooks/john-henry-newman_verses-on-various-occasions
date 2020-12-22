@@ -66,13 +66,13 @@ p span.i3{
 }
 
 #dedication footer [epub|type~="z3998:valediction"]{
-	text-indent: 5em;
-	padding-right: 6em;
+	text-indent: 2em;
+	padding-right: 3em;
 }
 
 #dedication footer [epub|type~="z3998:valediction"] + [epub|type~="z3998:valediction"]{
-	text-indent: 2em;
-	padding-right: 3em;
+	text-indent: 1em;
+	padding-right: 2em;
 }
 
 #dedication footer [epub|type~="se:letter.dateline"]{
