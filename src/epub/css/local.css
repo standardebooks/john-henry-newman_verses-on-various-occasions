@@ -93,6 +93,11 @@ p span.i8{
 	padding-left: 9em;
 }
 
+p span.i12{
+	text-indent: -1em;
+	padding-left: 13em;
+}
+
 #dedication header{
 	margin-bottom: 1em;
 }
