@@ -28,10 +28,6 @@ footer{
 	text-indent: 0;
 }
 
-[epub|type~="bridgehead"] i{
-	font-style: normal;
-}
-
 [epub|type~="z3998:sender"],
 [epub|type~="z3998:recipient"],
 [epub|type~="z3998:salutation"],
@@ -93,11 +89,6 @@ p span.i8{
 	padding-left: 9em;
 }
 
-p span.i12{
-	text-indent: -1em;
-	padding-left: 13em;
-}
-
 #dedication header{
 	margin-bottom: 1em;
 }
@@ -131,6 +122,14 @@ p span.i12{
 
 [epub|type~="z3998:poem"] footer time{
 	float: right;
+}
+
+[epub|type="epigraph"] p{
+	text-align: center;
+}
+
+[epub|type="z3998:poem epigraph"] p{
+	text-align: left;
 }
 
 #my-birthday header p{
