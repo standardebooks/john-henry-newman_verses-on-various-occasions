@@ -110,6 +110,11 @@ p span.i8{
 	padding-left: 9em;
 }
 
+p span.i12{
+	text-indent: -1em;
+	padding-left: 13em;
+}
+
 [epub|type="epigraph"] p{
 	text-align: center;
 }
