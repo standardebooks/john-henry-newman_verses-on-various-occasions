@@ -174,16 +174,16 @@ p span.i12{
 	text-align: left;
 }
 
-#the-month-of-mary section header p{
+#the-month-of-mary div header p{
 	font-style: italic;
 	margin: 1em;
 	text-align: center;
 }
 
-#the-month-of-mary section > p{
+#the-month-of-mary div > p{
 	padding-left: 1em;
 }
 
-#the-month-of-mary section + p{
+#the-month-of-mary div + p{
 	margin-top: 1em;
 }
