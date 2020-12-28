@@ -30,6 +30,19 @@ footer{
 	font-style: italic;
 }
 
+article > header [epub|type~="epigraph"]{
+	display: inline-block;
+	margin: auto;
+	max-width: 80%;
+	text-align: left;
+}
+
+@supports(display: table){
+	article > header [epub|type~="epigraph"]{
+		display: table;
+	}
+}
+
 [epub|type~="z3998:sender"],
 [epub|type~="z3998:recipient"],
 [epub|type~="z3998:salutation"],
@@ -115,14 +128,6 @@ p span.i12{
 	padding-left: 13em;
 }
 
-[epub|type="epigraph"] p{
-	text-align: center;
-}
-
-[epub|type="z3998:poem epigraph"] p{
-	text-align: left;
-}
-
 [epub|type~="bridgehead"]{
 	display: inline-block;
 	font-style: italic;
@@ -168,10 +173,6 @@ p span.i12{
 #my-birthday section header p{
 	margin: 1em;
 	text-align: center;
-}
-
-#waiting-for-the-morning [epub|type="epigraph"] p{
-	text-align: left;
 }
 
 #the-month-of-mary div header p{
