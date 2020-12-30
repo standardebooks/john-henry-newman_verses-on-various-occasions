@@ -1,4 +1,4 @@
-@charset "utf-8";
+@charet "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
 article{
@@ -34,7 +34,7 @@ article > header [epub|type~="epigraph"]{
 	display: inline-block;
 	margin: auto;
 	max-width: 80%;
-	text-align: left;
+	text-align: initial;
 }
 
 @supports(display: table){
@@ -52,7 +52,7 @@ article > header [epub|type~="epigraph"]{
 
 [epub|type~="z3998:poem"] p,
 [epub|type~="z3998:song"] p{
-	text-align: left;
+	text-align: initial;
 	text-indent: 0;
 }
 
@@ -75,7 +75,7 @@ article > header [epub|type~="epigraph"]{
 
 [epub|type~="z3998:poem"] footer,
 [epub|type~="z3998:song"] footer{
-	text-align: left;
+	text-align: initial;
 }
 
 [epub|type~="z3998:poem"] footer time,
@@ -155,7 +155,7 @@ p span.i12{
 }
 
 #dedication footer [epub|type~="se:letter.dateline"]{
-	text-align: left;
+	text-align: initial;
 }
 
 #dedication footer [epub|type~="se:letter.dateline"] p{
