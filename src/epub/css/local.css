@@ -1,4 +1,3 @@
-@charet "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
 article{
@@ -51,17 +50,20 @@ article > header [epub|type~="epigraph"]{
 }
 
 [epub|type~="z3998:poem"] p,
+[epub|type~="z3998:verse"] p,
 [epub|type~="z3998:song"] p{
 	text-align: initial;
 	text-indent: 0;
 }
 
 [epub|type~="z3998:poem"] p + p,
+[epub|type~="z3998:verse"] p + p,
 [epub|type~="z3998:song"] p + p{
 	margin-top: 1em;
 }
 
 [epub|type~="z3998:poem"] p > span,
+[epub|type~="z3998:verse"] p > span,
 [epub|type~="z3998:song"] p > span{
 	display: block;
 	text-indent: -1em;
@@ -69,6 +71,7 @@ article > header [epub|type~="epigraph"]{
 }
 
 [epub|type~="z3998:poem"] p > span + br,
+[epub|type~="z3998:verse"] p > span + br,
 [epub|type~="z3998:song"] p > span + br{
 	display: none;
 }
@@ -140,6 +143,21 @@ p span.i12{
 	font-style: normal;
 }
 
+figure{
+	margin: 1em auto;
+	text-align: center;
+}
+
+figure img{
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
+
+figure + p{
+	text-indent: 0;
+}
+
 #dedication header{
 	margin-bottom: 1em;
 }
@@ -184,4 +202,9 @@ p span.i12{
 
 #the-month-of-mary div + p{
 	margin-top: 1em;
+}
+
+#the-dream-of-gerontius div header p{
+	margin: 1em;
+	text-align: center;
 }
