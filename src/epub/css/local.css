@@ -126,9 +126,24 @@ p span.i8{
 	padding-left: 9em;
 }
 
+p span.i10{
+	text-indent: -1em;
+	padding-left: 11em;
+}
+
 p span.i12{
 	text-indent: -1em;
 	padding-left: 13em;
+}
+
+p span.i14{
+	text-indent: -1em;
+	padding-left: 15em;
+}
+
+p span.i16{
+	text-indent: -1em;
+	padding-left: 17em;
 }
 
 [epub|type~="bridgehead"]{
