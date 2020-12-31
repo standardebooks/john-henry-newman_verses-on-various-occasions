@@ -158,6 +158,14 @@ figure + p{
 	text-indent: 0;
 }
 
+table{
+	margin: 1em auto;
+}
+
+table + p{
+	text-indent: 0;
+}
+
 #dedication header{
 	margin-bottom: 1em;
 }
