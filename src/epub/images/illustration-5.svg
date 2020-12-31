@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" height="118.27" version="1.2" width="1231.3">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 1231.3 118.27">
+	<title>Musical notation indicating the rhythm of the line. Each measure has two quarter notes, except the first measure and the last, which have one. The line consists of the following notes and rests: quarter note, quarter note, quarter note, quarter note, quarter note, quarter note, quarter rest, quarter rest, quarter rest, quarter rest.</title>
 	<g fill="none" stroke="#000" stroke-linejoin="bevel">
 		<g stroke-width="4">
 			<path class="BarLine" d="M113.45 0v102M346.61 0v102M579.76 0v102M815.27 0v102M1050.77 0v102M1215.27 0v102M1229.27 0v102"/>
