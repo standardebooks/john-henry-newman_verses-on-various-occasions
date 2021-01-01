@@ -1,4 +1,5 @@
 @namespace epub "http://www.idpf.org/2007/ops";
+@namespace xml "http://www.w3.org/XML/1998/namespace";
 
 article{
 	break-after: page;
@@ -186,6 +187,14 @@ table + p{
 	text-indent: 0;
 }
 
+blockquote[xml|lang]{
+	font-style: italic;
+}
+
+blockquote[xml|lang] em{
+	font-style: normal;
+}
+
 #dedication header{
 	margin-bottom: 1em;
 }
@@ -235,4 +244,9 @@ table + p{
 #the-dream-of-gerontius div header p{
 	margin: 1em;
 	text-align: center;
+}
+
+#the-dream-of-gerontius ol{
+	margin: 0;
+	padding-left: 2em;
 }
