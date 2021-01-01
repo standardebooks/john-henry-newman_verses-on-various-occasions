@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="endnotes.xhtml">
+		<ignore>
+			<code>t-019</code>
+			<reason>None of the clauses se lint complains about are complete clauses.</reason>
+		</ignore>
+	</file>
+	<file path="poetry.xhtml">
+		<ignore>
+			<code>t-033</code>
+			<reason>The poem is deliberately styled with lines ending with a dash, then subsequently beginning with a dash.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
