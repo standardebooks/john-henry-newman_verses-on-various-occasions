@@ -227,6 +227,11 @@ blockquote[xml|lang] em{
 	text-align: center;
 }
 
+#the-trance-of-time blockquote,
+#seeds-in-the-air blockquote{
+	font-style: normal;
+}
+
 #the-month-of-mary div header p{
 	font-style: italic;
 	margin: 1em;
