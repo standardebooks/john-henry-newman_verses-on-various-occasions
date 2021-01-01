@@ -44,7 +44,7 @@
 		<dc:source>https://catalog.hathitrust.org/Record/009038168</dc:source>
 		<dc:source>https://www.gutenberg.org/ebooks/48927</dc:source>
 		<dc:source>https://archive.org/details/dreamofgerontius01newmuoft</dc:source>
-		<meta property="se:production-notes">This production used a separately published version of “The Dream of Gerontius” for its transcription and scan source, due to the superior commentary available in that version. The numbering and ordering of poems is slightly different in this production compared to the original scans, because a poem Newman wrote in (and translated from) Latin, “Prologus in Phormonionem,” which was originally found in the appendix, has been moved in front of “Gerontius” where it chronologically belongs.</meta>
+		<meta property="se:production-notes">This production used a separately published version of “The Dream of Gerontius” for its transcription and scan source, due to the superior commentary available in that version. The numbering and ordering of poems is slightly different in this production compared to the original scans, because a poem Newman wrote in (and translated from) Latin, “Prologus in Phormionem,” which was originally found in the appendix, has been moved in front of “Gerontius” where it chronologically belongs.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Dream_of_Gerontius_(poem)</meta>
