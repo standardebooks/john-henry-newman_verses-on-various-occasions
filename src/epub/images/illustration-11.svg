@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 1356.2 140.4">
-	<title>Musical notation indicating the rhythm of the line. Each measure has three eighth notes, except the last measure, which has two. The line consists of the following notes and rests: stressed eighth note, eighth note, eighth note, stressed eighth note, eighth note, eighth rest, stressed eighth note, eighth note, eighth note, stressed eighth note, quarter note, eighth rest, eighth rest.</title>
+	<title>Musical notation indicating the rhythm of the line starting with “Softly and gently.” Each measure has three eighth notes, except the last measure, which has two. The line consists of the following notes and rests: stressed eighth note, eighth note, eighth note, stressed eighth note, eighth note, eighth rest, stressed eighth note, eighth note, eighth note, stressed eighth note, quarter note, eighth rest, eighth rest.</title>
 	<g fill="none" stroke="#000" stroke-linejoin="bevel">
 		<g stroke-width="4">
 			<path class="BarLine" d="M279.48.25v102M580.5.25v102M880.96.25v102M1139.36.25v102M1354.16.25v102"/>

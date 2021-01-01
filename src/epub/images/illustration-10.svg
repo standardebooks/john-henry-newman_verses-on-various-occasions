@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 2090.2 118.6">
-	<title>Musical notation indicating the rhythm of the line. Each measure has two quarter notes, except the first measure, which has one. The line consists of the following notes and rests: quarter note, stressed quarter note, quarter note, stressed quarter note, quarter rest, quarter rest, quarter note, stressed quarter note, quarter note, stressed quarter note, quarter note, stressed half note, quarter rest, quarter note, stressed quarter note, quarter note, stressed quarter note, quarter rest.</title>
+	<title>Musical notation indicating the rhythm of the two lines starting with “Take me away.” Each measure has two quarter notes, except the first measure, which has one. The line consists of the following notes and rests: quarter note, stressed quarter note, quarter note, stressed quarter note, quarter rest, quarter rest, quarter note, stressed quarter note, quarter note, stressed quarter note, quarter note, stressed half note, quarter rest, quarter note, stressed quarter note, quarter note, stressed quarter note, quarter rest.</title>
 	<g fill="none" stroke="#000" stroke-linejoin="bevel">
 		<g stroke-width="4">
 			<path class="BarLine" d="M110.73.33v102M338.45.33v102M568.51.33v102M798.57.33v102M1026.27.33v102M1253.97.33v102M1480.67.33v102M1710.67.33v102M1938.37.33v102"/>
