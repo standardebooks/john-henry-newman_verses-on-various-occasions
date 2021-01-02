@@ -201,13 +201,13 @@ blockquote[xml|lang] em{
 
 #dedication footer [epub|type~="z3998:valediction"] span.i2{
 	text-indent: 2em;
-	padding-left: 0em;
+	padding-left: 0;
 	padding-right: 3em;
 }
 
 #dedication footer [epub|type~="z3998:valediction"] span.i1{
 	text-indent: 1em;
-	padding-left: 0em;
+	padding-left: 0;
 	padding-right: 2em;
 }
 
