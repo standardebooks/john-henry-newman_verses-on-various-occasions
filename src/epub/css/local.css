@@ -264,6 +264,10 @@ blockquote[xml|lang] em{
 	text-align: center;
 }
 
+#my-birthday section header + p{
+	margin: 0;
+}
+
 #the-trance-of-time blockquote,
 #seeds-in-the-air blockquote{
 	font-style: normal;
