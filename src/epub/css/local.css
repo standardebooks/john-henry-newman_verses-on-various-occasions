@@ -199,27 +199,36 @@ blockquote[xml|lang] em{
 	margin-bottom: 1em;
 }
 
-#dedication footer [epub|type~="z3998:valediction"]{
+#dedication footer [epub|type~="z3998:valediction"] span.i2{
 	text-indent: 2em;
+	padding-left: 0em;
 	padding-right: 3em;
 }
 
-#dedication footer [epub|type~="z3998:valediction"] + [epub|type~="z3998:valediction"]{
+#dedication footer [epub|type~="z3998:valediction"] span.i1{
 	text-indent: 1em;
+	padding-left: 0em;
 	padding-right: 2em;
 }
 
-#dedication footer [epub|type~="se:letter.dateline"]{
+#dedication footer p[epub|type~="se:letter.dateline"]{
 	text-align: initial;
-}
-
-#dedication footer [epub|type~="se:letter.dateline"] p{
 	text-indent: 0;
 }
 
-#dedication footer [epub|type~="se:letter.dateline"] p + p{
+#dedication footer p[epub|type~="se:letter.dateline"] > span{
+	display: block;
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+#dedication footer p[epub|type~="se:letter.dateline"] > span.i1{
 	text-indent: -1em;
 	padding-left: 2em;
+}
+
+#dedication footer p[epub|type~="se:letter.dateline"] > span + br{
+	display: none;
 }
 
 #my-birthday section header p{
