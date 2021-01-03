@@ -126,8 +126,8 @@
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
-		<itemref idref="dedication.xhtml"/>
 		<itemref idref="epigraph.xhtml"/>
+		<itemref idref="dedication.xhtml"/>
 		<itemref idref="haftitle.xhtml"/>
 		<itemref idref="poetry.xhtml"/>
 		<itemref idref="the-dream-of-gerontius.xhtml"/>
