@@ -244,19 +244,9 @@ blockquote[xml|lang] em{
 	text-indent: 0;
 }
 
-#dedication footer p[epub|type~="se:letter.dateline"] > span{
-	display: block;
-	text-indent: -1em;
-	padding-left: 1em;
-}
-
 #dedication footer p[epub|type~="se:letter.dateline"] > span.i1{
 	text-indent: -1em;
-	padding-left: 2em;
-}
-
-#dedication footer p[epub|type~="se:letter.dateline"] > span + br{
-	display: none;
+	padding-left: 1em;
 }
 
 #my-birthday section header p{
