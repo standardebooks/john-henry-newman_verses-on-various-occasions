@@ -110,6 +110,7 @@ section[epub|type~="epigraph"] > *{
 
 [epub|type~="z3998:poem"] footer,
 [epub|type~="z3998:hymn"] footer{
+	font-style: italic;
 	text-align: initial;
 }
 
@@ -193,6 +194,11 @@ p span.i16{
 
 [epub|type~="bridgehead"] i{
 	font-style: normal;
+}
+
+
+[epub|type~="bridgehead"] i[xml|lang]:only-child{
+	font-style: italic;
 }
 
 figure{
