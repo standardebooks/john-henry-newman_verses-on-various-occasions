@@ -12,7 +12,7 @@
 			<reason>None of the clauses se lint complains about are complete clauses.</reason>
 		</ignore>
 	</file>
-	<file path="poetry.xhtml">
+	<file path="verses-on-various-occasions.xhtml">
 		<ignore>
 			<code>t-033</code>
 			<reason>The poem is deliberately styled with lines ending with a dash, then subsequently beginning with a dash.</reason>
