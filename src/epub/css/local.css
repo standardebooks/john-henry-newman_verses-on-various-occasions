@@ -71,11 +71,14 @@ section[epub|type~="epigraph"] > *{
 	}
 }
 
-[epub|type~="z3998:sender"],
 [epub|type~="z3998:recipient"],
 [epub|type~="z3998:salutation"],
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
+}
+
+[epub|type~="z3998:salutation"] + p{
+	text-indent: 0;
 }
 
 [epub|type~="z3998:poem"] p,
@@ -224,16 +227,16 @@ blockquote[xml|lang] em{
 }
 
 #dedication header{
-	margin-bottom: 1em;
+	margin: 4em auto;
 }
 
-#dedication footer [epub|type~="z3998:valediction"] span.i2{
+#dedication footer [epub|type~="z3998:valediction"] span:nth-of-type(1){
 	text-indent: 2em;
 	padding-left: 0;
 	padding-right: 3em;
 }
 
-#dedication footer [epub|type~="z3998:valediction"] span.i1{
+#dedication footer [epub|type~="z3998:valediction"] span:nth-of-type(2){
 	text-indent: 1em;
 	padding-left: 0;
 	padding-right: 2em;
@@ -242,11 +245,6 @@ blockquote[xml|lang] em{
 #dedication footer p[epub|type~="se:letter.dateline"]{
 	text-align: initial;
 	text-indent: 0;
-}
-
-#dedication footer p[epub|type~="se:letter.dateline"] > span.i1{
-	text-indent: -1em;
-	padding-left: 1em;
 }
 
 #my-birthday section header p{
