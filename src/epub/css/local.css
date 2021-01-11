@@ -196,10 +196,6 @@ p span.i16{
 	font-style: normal;
 }
 
-[epub|type~="bridgehead"] i[xml|lang]:only-child{
-	font-style: italic;
-}
-
 figure{
 	margin: 1em auto;
 	text-align: center;
