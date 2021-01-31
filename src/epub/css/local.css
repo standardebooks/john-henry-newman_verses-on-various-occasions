@@ -184,11 +184,12 @@ p span.i16{
 	padding-left: 17em;
 }
 
-[epub|type~="bridgehead"]{
+[epub|type~="z3998:poem"] [epub|type~="bridgehead"],
+[epub|type~="z3998:hymn"] [epub|type~="bridgehead"]{
 	display: inline-block;
 	font-style: italic;
 	max-width: 60%;
-	text-align: justify;
+	text-align: center;
 	text-indent: 0;
 }
 
@@ -265,6 +266,10 @@ blockquote[xml|lang] em{
 
 #the-month-of-mary div + p{
 	margin-top: 1em;
+}
+
+#prime [epub|type~="bridgehead"] p{
+	text-align: center;
 }
 
 #the-dream-of-gerontius div header p{
