@@ -192,6 +192,11 @@ p span.i16{
 	text-indent: 0;
 }
 
+[epub|type~="z3998:poem"] [epub|type~="bridgehead"],
+[epub|type~="z3998:hymn"] [epub|type~="bridgehead"]{
+	text-align: justify;
+}
+
 [epub|type~="bridgehead"] i{
 	font-style: normal;
 }
