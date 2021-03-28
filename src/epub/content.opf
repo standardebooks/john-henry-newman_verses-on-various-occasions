@@ -52,12 +52,12 @@
 		<dc:creator id="author">John Henry Newman</dc:creator>
 		<meta property="file-as" refines="#author">Newman, John Henry</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/John_Henry_Newman</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n78095501</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n78095501</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Corrado Giaquinto</dc:contributor>
 		<meta property="file-as" refines="#artist">Giaquinto, Corrado</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Corrado_Giaquinto</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/n85265498</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n85265498</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="annotator-1">Maurice Francis Egan</dc:contributor>
 		<meta property="file-as" refines="#annotator-1">Egan, Maurice Francis</meta>
