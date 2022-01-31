@@ -21,9 +21,9 @@ footer{
 }
 
 [epub|type~="epigraph"] cite{
-	margin-top: 1em;
 	font-style: normal;
 	font-variant: small-caps;
+	margin-top: 1em;
 }
 
 [epub|type~="epigraph"] cite i{
@@ -160,28 +160,28 @@ p span.i8{
 }
 
 p span.i10{
-	text-indent: -1em;
 	padding-left: 11em;
+	text-indent: -1em;
 }
 
 p span.i11{
-	text-indent: -1em;
 	padding-left: 12em;
+	text-indent: -1em;
 }
 
 p span.i12{
-	text-indent: -1em;
 	padding-left: 13em;
+	text-indent: -1em;
 }
 
 p span.i14{
-	text-indent: -1em;
 	padding-left: 15em;
+	text-indent: -1em;
 }
 
 p span.i16{
-	text-indent: -1em;
 	padding-left: 17em;
+	text-indent: -1em;
 }
 
 [epub|type~="bridgehead"]{
@@ -234,15 +234,15 @@ blockquote[xml|lang] em{
 }
 
 #dedication footer [epub|type~="z3998:valediction"] span:nth-of-type(1){
-	text-indent: 2em;
 	padding-left: 0;
 	padding-right: 3em;
+	text-indent: 2em;
 }
 
 #dedication footer [epub|type~="z3998:valediction"] span:nth-of-type(2){
-	text-indent: 1em;
 	padding-left: 0;
 	padding-right: 2em;
+	text-indent: 1em;
 }
 
 #dedication footer p[epub|type~="se:letter.dateline"]{
