@@ -63,6 +63,8 @@
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="annotator-1">Maurice Francis Egan</dc:contributor>
 		<meta property="file-as" refines="#annotator-1">Egan, Maurice Francis</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#annotator-1">https://en.wikipedia.org/wiki/Maurice_F._Egan</meta>
+		<meta property="se:url.authority.nacoaf" refines="#annotator-1">http://id.loc.gov/authorities/names/n79021768</meta>
 		<meta property="role" refines="#annotator-1">ann</meta>
 		<dc:contributor id="transcriber-1">Paul Zadik</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Zadik, Paul</meta>
