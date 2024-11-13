@@ -71,7 +71,7 @@ section[epub|type~="epigraph"] > *{
 	}
 }
 
-[epub|type~="z3998:recipient"],
+#dedication header,
 [epub|type~="z3998:salutation"],
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
@@ -238,19 +238,19 @@ blockquote[xml|lang] em{
 	margin: 4em auto;
 }
 
-#dedication footer [epub|type~="z3998:valediction"] span:nth-of-type(1){
+#dedication footer p:first-of-type span:nth-of-type(1){
 	padding-left: 0;
 	padding-right: 3em;
 	text-indent: 2em;
 }
 
-#dedication footer [epub|type~="z3998:valediction"] span:nth-of-type(2){
+#dedication footer p:first-of-type span:nth-of-type(2){
 	padding-left: 0;
 	padding-right: 2em;
 	text-indent: 1em;
 }
 
-#dedication footer p[epub|type~="se:letter.dateline"]{
+#dedication footer p:last-of-type{
 	text-align: initial;
 	text-indent: 0;
 }

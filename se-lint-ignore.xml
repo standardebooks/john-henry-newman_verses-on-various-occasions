@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
-	<file path="dedication.xhtml">
-		<ignore>
-			<code>s-046</code>
-			<reason>We need to use span and br tags to format the valediction and dateline.</reason>
-		</ignore>
-	</file>
 	<file path="endnotes.xhtml">
 		<ignore>
 			<code>t-019</code>
