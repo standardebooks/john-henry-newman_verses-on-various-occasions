@@ -72,12 +72,12 @@ section[epub|type~="epigraph"] > *{
 }
 
 #dedication header,
-[epub|type~="z3998:salutation"],
+#dedication > p:first-of-type,
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
 }
 
-[epub|type~="z3998:salutation"] + p{
+#dedication > p:first-of-type + p{
 	text-indent: 0;
 }
 
