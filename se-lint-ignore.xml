@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
 	<file path="endnotes.xhtml">
-		<ignore>
-			<code>t-019</code>
+		<ignore code="t-019">
 			<reason>None of the clauses se lint complains about are complete clauses.</reason>
 		</ignore>
 	</file>
 	<file path="verses-on-various-occasions.xhtml">
-		<ignore>
-			<code>t-033</code>
+		<ignore code="t-033">
 			<reason>The poem is deliberately styled with lines ending with a dash, then subsequently beginning with a dash.</reason>
 		</ignore>
 	</file>
